@@ -1,5 +1,5 @@
 # Conversion Lib userc68
-### how to use
+## how to use
 
 type first "conv::" then fc if you are going fahrenheit to celsius, cf = celsius to fahrenheit, kf = kelvin to fahrenheit, 
 and so on.
@@ -8,6 +8,9 @@ and so on.
 there are 6 functions, fc, fk, cf, ck, kf, kc
 
 first letter is the starting value, second is the end value. they all have one parameter, the first letter of the function
+
+only reason this doesnt work in c is because of the namespace which is a c++ exclusive feature
+
 
 
 ```cpp
@@ -21,3 +24,5 @@ int main() {
 ```
 
 got bored waiting on the pork to get to 203 degrees F so made this
+
+license MIT or something
